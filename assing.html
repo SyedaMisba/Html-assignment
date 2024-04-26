@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial;
+        }
+        header {
+            padding: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 5rem;
+            margin-left: 2rem;
+        }
+        header img {
+            height: 3rem;
+        }
+        header nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .social-media {
+            margin-right: 10px;
+        }
+        main {
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+        }
+        .hero img{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .hero-content {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(209, 209, 209);
+            padding: 20px 30px 20px 30px;
+        }
+        
+        /* .textbox {
+            position:absolute;
+            font-size: xx-large;
+            background-image: linear-gradient(to right, black, gray);
+            bottom: 20%;
+            left: 10%;
+            color: white;
+            padding: 10px 40px;
+        } */
+        .hero-content p {
+            padding: 1rem;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            margin-top: 3rem;
+            text-align: left;
+            padding-left: 1rem;
+        }
+
+        main .segment {
+            display:flex;
+            justify-content: center;
+        }
+
+        main .segment .card {
+            padding: 1rem;
+            flex-basis:100%;
+        }
+
+        main .segment .card img {
+            width: 100%;
+            height: auto;
+        }
+        main .segment .card p{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+        main .segment .card a{
+            background-color: black;
+            color: aliceblue;
+            padding: 7px 20px 7px 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="phoenix-logo.png" alt="Logo" class="logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Order Food</a>
+            <a href="#">Restaurant</a>
+            <a href="#">Testimonial</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.whatsapp.com"><img src="whatsapp.png" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com"><img src="facebook.jpg" alt="Facebook"></a>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="heroimg.jpg" alt="Hero Image">
+            <!-- <div class="textbox">
+                <h4>Lorem ipsum</h4>
+            </div> -->
+            <div class="hero-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, impedit. Quisquam voluptatibus architecto odit amet totam mollitia hic explicabo molestiae, excepturi soluta fuga blanditiis deserunt cupiditate quas neque officiis veniam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, impedit. Quisquam voluptatibus architecto odit amet totam mollitia hic explicabo molestiae, excepturi soluta fuga blanditiis deserunt cupiditate quas neque officiis veniam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, impedit. Quisquam voluptatibus architecto odit amet totam mollitia hic explicabo molestiae, excepturi soluta fuga blanditiis deserunt cupiditate quas neque officiis veniam?</p>
+            </div>
+        </div>
+
+        <h1>Lorem Ipsum </h1>
+        <div class="segment">
+            <div class="card">
+                <img src="rooms.jpg" alt="ROOMS">
+                <p style="text-align: left;">ROOMS<p>
+                <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis alias ut cumque corrupti dolorum fugit dolorem numquam aut inventore harum cupiditate recusandae perferendis doloremque tempore eum, officiis itaque iste totam?</p>
+                <p style="text-align: left;"><a href="#">Learn More</a></p>
+            </div>
+            <div class="card">
+                <img src="dining.jpg" alt="DINING">
+                <p style="text-align: center;">DINING<p>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis alias ut cumque corrupti dolorum fugit dolorem numquam aut inventore harum cupiditate recusandae perferendis doloremque tempore eum, officiis itaque iste totam?</p>
+                <p style="text-align: center;"><a href="#">Learn More</a></p>
+            </div>
+            <div class="card">
+                <img src="pool.jpg" alt="POOLS">
+                <p style="text-align: right; ">POOLS<p>
+                <p style="text-align: right;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis alias ut cumque corrupti dolorum fugit dolorem numquam aut inventore harum cupiditate recusandae perferendis doloremque tempore eum, officiis itaque iste totam?</p>
+                <p style="text-align: right;"><a href="#">Learn More</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
